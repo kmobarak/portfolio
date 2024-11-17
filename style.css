@@ -25,7 +25,6 @@ hr {
   margin: 4em 0;
 }
 
-/* Global font settings */
 body {
 font-family: 'Roboto', sans-serif;
 }
@@ -61,9 +60,8 @@ font-family: 'Roboto', sans-serif;
   animation: bounce 2s infinite;
 }
 
-/* Hero Section */
 .qr-code-container {
-margin-top: 40px; /* Adds space below the main paragraph */
+margin-top: 40px; 
 text-align: center;
 }
 
@@ -93,7 +91,6 @@ height: auto;
   color: #E2F1E7;
 }
 
-/* Bounce animation */
 @keyframes bounce {
   0%, 100% {
       transform: translateY(0);
@@ -112,7 +109,7 @@ height: auto;
   padding: 3em;
 }
 }
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -161,7 +158,7 @@ p {
 /* ///////////////////////////// Education Section Starts here //////////////////////////////////*/
 
 .education {
-/*  background-color: #E2F1E7; /* Light background color for contrast */
+/*  background-color: #E2F1E7; */
   color: #243642; 
   padding: 2em;
   text-align: center;
@@ -402,9 +399,11 @@ p {
 }
 
 
-/* Styling for Curved Divider */
+/* Styling for Curved Divider 
 .svg-divider {
 width: 100%;
 height: 50px;
-margin-top: -10px; /* Adjust to fit */
+margin-top: -10px;
 }
+
+*/
